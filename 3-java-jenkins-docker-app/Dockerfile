@@ -1,5 +1,6 @@
 # Use OpenJDK base image
-FROM openjdk:17-jdk-slim     # Full JDK via Eclipse Temurin
+# Change line 2 to use Eclipse Temurin (highly recommended)
+FROM eclipse-temurin:17-jdk-jammy    # Full JDK via Eclipse Temurin
 
 
 WORKDIR /app
